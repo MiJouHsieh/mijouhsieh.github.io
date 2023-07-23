@@ -1,0 +1,1616 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SD Canelés | 可麗露資訊平台</title>
+    <!-- slick輪播 -->
+    <link rel="stylesheet" href="./css/slick.css" />
+    <link rel="stylesheet" href="./css/slick-theme.css" />
+    <link
+      href="https://api.tiles.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <!-- 頁首 -->
+    <header>
+      <div class="header-box">
+        <a href="./index.html">
+          <h1 class="logo">
+            <img src="./images/logo.svg" alt="SD Canelés可麗露平台logo" />
+          </h1>
+        </a>
+      </div>
+    </header>
+    <div class="nav-box">
+      <input type="checkbox" name="nav-button" id="nav-button" />
+      <nav id="menu">
+        <a href="./index.html">首頁</a>
+        <a href="./pages/news.html"> 最新消息</a>
+        <a href="./pages/shops.html"> 店鋪夥伴</a>
+        <a href="./pages/product.html"> 商品一覽</a>
+        <a href="./pages/faq.html"> FAQ</a>
+        <div class="menu-img"></div>
+      </nav>
+    </div>
+    <!-- 主要內容 -->
+    <main>
+      <!-- banner區 -->
+      <section class="banner">
+        <div class="carousel">
+          <div class="background-active">
+            <img
+              class="background-shops"
+              src="./images/banner-1.jpg"
+              alt="販售可麗露店家"
+            />
+          </div>
+          <div class="background-other">
+            <img
+              class="background-shops"
+              src="./images/banner-2.jpg"
+              alt="販售可麗露店家"
+            />
+          </div>
+          <div class="background-other">
+            <img
+              class="background-shops"
+              src="./images/banner-3.jpg"
+              alt="販售可麗露店家"
+            />
+          </div>
+          <div class="background-other">
+            <img
+              class="background-shops"
+              src="./images/banner-4.jpg"
+              alt="販售可麗露店家"
+            />
+          </div>
+          <div class="background-other">
+            <img
+              class="background-shops"
+              src="./images/banner-5.jpg"
+              alt="販售可麗露店家"
+            />
+          </div>
+        </div>
+
+        <div class="banner-logotext">
+          <div class="logotext logotext1">
+            <h2>SD Canelés&emsp;SD Canelés&emsp;SD Canelés&emsp;</h2>
+          </div>
+          <div class="logotext logotext2">
+            <h2>SD Canelés&emsp;SD Canelés&emsp;SD Canelés&emsp;</h2>
+          </div>
+        </div>
+
+        <div class="banner-mask">
+          <div class="mask-img"></div>
+          <div id="mask_video">
+            <!-- https://player.vimeo.com/video/292542131?h=fe9f0e865c&autoplay=1&loop=1&title=0&byline=0&portrait=0 -->
+            <video
+              src="./video/canele.mp4"
+              style="width: 50%; height: 50%"
+              autoplay
+              muted
+              loop
+            ></video>
+          </div>
+        </div>
+      </section>
+      <!-- about區 -->
+      <section class="about" id="about">
+        <div class="carousel-about">
+          <div class="slide slide1 active">
+            <div class="cover contents-one">
+              <div class="about-page-one">
+                <h2>SD Canelés</h2>
+                <p>
+                  即 Search Dessert Canelés<br />
+                  「找尋可麗露」讓喜愛可麗露的夥伴們<br />
+                  可以透過此平台發現不同地區的店家<br />
+                  一覽各店家最新消息。<br />
+                  想蒐集各店家的特別口味，就來看看吧！
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="slide slide2">
+            <div class="cover contents-two">
+              <div class="about-page-two">
+                <ul class="icons-area">
+                  <!-- vanilla -->
+                  <li>
+                    <div class="icons icon1" data-name="vanilla">
+                      <div class="button_border plx-el">
+                        <div class="border_in">
+                          <div class="bg_focus cover"></div>
+                          <span></span>
+                        </div>
+                        <!-- .border_in -->
+                        <div class="border_out">
+                          <svg viewBox="0 0 88 88">
+                            <path
+                              class="border"
+                              d="M39.2,86C19.7,83.8,4.2,68.3,2,48.8"
+                            ></path>
+                            <path
+                              class="border"
+                              d="M86,48.8c-2.2,19.5-17.7,35-37.2,37.2"
+                            ></path>
+                            <path
+                              class="border"
+                              d="M48.8,2c19.5,2.2,35,17.7,37.2,37.2"
+                            ></path>
+                            <path
+                              class="border"
+                              d="M2,39.2C4.2,19.7,19.7,4.2,39.2,2"
+                            ></path>
+                          </svg>
+                        </div>
+                        <!-- .border_out -->
+                      </div>
+                      <div class="line plx-el"></div>
+                      <div class="point plx-el"></div>
+                      <div class="text plx-el clip">
+                        <p class="text-t">vanilla</p>
+                      </div>
+                    </div>
+                  </li>
+                  <!-- egg -->
+                  <li>
+                    <div class="icons icon2" data-name="egg">
+                      <div class="button_border plx-el">
+                        <div class="border_in">
+                          <div class="bg_focus cover"></div>
+                          <span class="icon_movie"></span>
+                        </div>
+                        <!-- .border_in -->
+                        <div class="border_out">
+                          <svg viewBox="0 0 88 88">
+                            <path
+                              class="border"
+                              d="M39.2,86C19.7,83.8,4.2,68.3,2,48.8"
+                            ></path>
+                            <path
+                              class="border"
+                              d="M86,48.8c-2.2,19.5-17.7,35-37.2,37.2"
+                            ></path>
+                            <path
+                              class="border"
+                              d="M48.8,2c19.5,2.2,35,17.7,37.2,37.2"
+                            ></path>
+                            <path
+                              class="border"
+                              d="M2,39.2C4.2,19.7,19.7,4.2,39.2,2"
+                            ></path>
+                          </svg>
+                        </div>
+                        <!-- .border_out -->
+                      </div>
+                      <div class="line plx-el"></div>
+                      <div class="point plx-el"></div>
+                      <div class="text plx-el clip">
+                        <p class="text-t">egg</p>
+                      </div>
+                    </div>
+                    <!-- .rule2 egg-->
+                  </li>
+                  <!-- flour -->
+                  <li>
+                    <div class="icons icon3" data-name="flour">
+                      <div class="button_border plx-el">
+                        <div class="border_in">
+                          <div class="bg_focus cover"></div>
+                          <span class="icon_movie"></span>
+                        </div>
+                        <!-- .border_in -->
+                        <div class="border_out">
+                          <svg viewBox="0 0 88 88">
+                            <path
+                              class="border"
+                              d="M39.2,86C19.7,83.8,4.2,68.3,2,48.8"
+                            ></path>
+                            <path
+                              class="border"
+                              d="M86,48.8c-2.2,19.5-17.7,35-37.2,37.2"
+                            ></path>
+                            <path
+                              class="border"
+                              d="M48.8,2c19.5,2.2,35,17.7,37.2,37.2"
+                            ></path>
+                            <path
+                              class="border"
+                              d="M2,39.2C4.2,19.7,19.7,4.2,39.2,2"
+                            ></path>
+                          </svg>
+                        </div>
+                        <!-- .border_out -->
+                      </div>
+                      <div class="line plx-el"></div>
+                      <div class="point plx-el"></div>
+                      <div class="text plx-el clip">
+                        <p class="text-t">flour</p>
+                      </div>
+                    </div>
+                    <!-- .rule3 flour -->
+                  </li>
+                  <!-- rum -->
+                  <li>
+                    <div class="icons icon4 firstView" data-name="rum">
+                      <div class="button_border plx-el">
+                        <div class="border_in">
+                          <div class="bg_focus cover"></div>
+                          <span class="icon_movie"></span>
+                        </div>
+                        <!-- .border_in -->
+                        <div class="border_out">
+                          <svg viewBox="0 0 88 88">
+                            <path
+                              class="border"
+                              d="M39.2,86C19.7,83.8,4.2,68.3,2,48.8"
+                            ></path>
+                            <path
+                              class="border"
+                              d="M86,48.8c-2.2,19.5-17.7,35-37.2,37.2"
+                            ></path>
+                            <path
+                              class="border"
+                              d="M48.8,2c19.5,2.2,35,17.7,37.2,37.2"
+                            ></path>
+                            <path
+                              class="border"
+                              d="M2,39.2C4.2,19.7,19.7,4.2,39.2,2"
+                            ></path>
+                          </svg>
+                        </div>
+                        <!-- .border_out end-->
+                      </div>
+                      <div
+                        class="line plx-el"
+                        style="transition-delay: 800ms"
+                      ></div>
+                      <div class="point plx-el"></div>
+                      <div class="text plx-el clip">
+                        <p class="text-t">rum</p>
+                      </div>
+                    </div>
+                    <!-- .rule3 flour -->
+                  </li>
+                  <!-- milk -->
+                  <li>
+                    <div class="icons icon5" data-name="milk">
+                      <div class="button_border plx-el">
+                        <div class="border_in">
+                          <div class="bg_focus cover"></div>
+                          <span class="icon_movie"></span>
+                        </div>
+                        <!-- .border_in -->
+                        <div class="border_out">
+                          <svg viewBox="0 0 88 88">
+                            <path
+                              class="border"
+                              d="M39.2,86C19.7,83.8,4.2,68.3,2,48.8"
+                            ></path>
+                            <path
+                              class="border"
+                              d="M86,48.8c-2.2,19.5-17.7,35-37.2,37.2"
+                            ></path>
+                            <path
+                              class="border"
+                              d="M48.8,2c19.5,2.2,35,17.7,37.2,37.2"
+                            ></path>
+                            <path
+                              class="border"
+                              d="M2,39.2C4.2,19.7,19.7,4.2,39.2,2"
+                            ></path>
+                          </svg>
+                        </div>
+                        <!-- .border_out end-->
+                      </div>
+                      <div class="line plx-el"></div>
+                      <div class="point plx-el"></div>
+                      <div class="text plx-el clip">
+                        <p class="text-t">milk</p>
+                      </div>
+                    </div>
+                    <!-- .rule3 flour -->
+                  </li>
+                </ul>
+                <div class="right-side">
+                  <h2 class="about-page-two-h2">MAGIC<br />CONTENT</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="about-page-btns">
+            <button class="aboutBtn active"></button>
+            <button class="aboutBtn"></button>
+          </div>
+        </div>
+      </section>
+
+      <!-- news區 -->
+      <section id="news">
+        <div class="news-title">
+          <h2>NEWS</h2>
+        </div>
+        <div class="news-content">
+          <a
+            href=""
+            class="news-card news-card1"
+            data-title="歡慶一年一度聖誕交換禮物 | TOP3可麗露甜點禮盒推薦"
+            data-img="./images/news-img1.jpg"
+            data-index="0"
+            alt="news-img1"
+          >
+            <div class="news-card-title">
+              <p>歡慶一年一度聖誕交換禮物 | TOP3可麗露甜點禮盒推薦</p>
+            </div>
+          </a>
+          <a
+            href=""
+            class="news-card news-card2"
+            data-title="新口味上市！限時三天優惠開跑"
+            data-img="./images/news-img2.jpg"
+            data-index="1"
+            alt="news-img2"
+          >
+            <div class="news-card-title">
+              <p>新口味上市！限時三天優惠開跑</p>
+            </div>
+          </a>
+          <a
+            href=""
+            class="news-card news-card3"
+            data-title="每日限量！義大利頂級巧克力口味內餡可麗露"
+            data-img="./images/news-img3.jpg"
+            data-index="2"
+            alt="news-img3"
+          >
+            <div class="news-card-title">
+              <p>每日限量！義大利頂級巧克力口味內餡可麗露</p>
+            </div>
+          </a>
+          <a
+            href=""
+            class="news-card news-card4"
+            data-title="假日揪好姊妹逛台北松山甜點文創市集 | 眾多手工甜點任你挑"
+            data-img="./images/news-img4.jpg"
+            data-index="3"
+            alt="news-img4"
+          >
+            <div class="news-card-title">
+              <p>假日揪好姊妹逛台北松山甜點文創市集 | 眾多手工甜點任你挑</p>
+            </div>
+          </a>
+          <a
+            href=""
+            class="news-card news-card5"
+            data-title="法式甜點 | 可麗露食譜與做法"
+            data-img="./images/news-img5.jpg"
+            data-index="4"
+            alt="news-img5"
+          >
+            <div class="news-card-title">
+              <p>法式甜點 | 可麗露食譜與做法</p>
+            </div>
+          </a>
+          <a href="./pages/news.html" class="news-btn-more"> </a>
+        </div>
+      </section>
+      <!-- 訊息彈跳視窗 -->
+      <div id="popup" class="popup">
+        <div class="popup-content">
+          <h3 id="popup-title"></h3>
+          <img id="popup-image" src="" alt="最新消息圖片" />
+          <p id="popup-content"></p>
+        </div>
+      </div>
+      <!-- 推薦店家區 -->
+      <section id="shops">
+        <div class="shop-title">
+          <h2>
+            <span class="title-stroke">Canelé</span
+            ><span class="title-color">Shops</span>
+          </h2>
+        </div>
+        <div class="bubbles-shops"></div>
+      </section>
+      <!-- map區 -->
+      <section id="map-area">
+        <!-- <h2>Map</h2> -->
+        <div id="map-container">
+          <div id="map"></div>
+        </div>
+      </section>
+      <!-- 顧客回饋區 -->
+      <section id="customers">
+        <div class="customers-title">
+          <h2>Customers<br />Reviews</h2>
+        </div>
+        <div class="customers-box">
+          <div class="customers-left">
+            <div class="customers-left1">
+              <div class="customers-item">
+                <div class="name">
+                  <div class="name-img">
+                    <img src="./images/customer-1.jpg" alt="顧客頭像" />
+                  </div>
+                  <div class="name-text">
+                    <span>Meredith Smith</span>
+                    <span>39 minutes ago</span>
+                  </div>
+                </div>
+                <div class="content">
+                  <p>
+                    無可挑剔的可麗露，推薦口味 可可>香草>覆盆莓果>伯爵茶>抹茶
+                  </p>
+                </div>
+                <div class="other">
+                  <div class="star">
+                    <div class="star-icon">
+                      <svg
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"
+                          fill="#FFC700"
+                        />
+                      </svg>
+                    </div>
+                    <div class="number">
+                      <span>5</span>
+                    </div>
+                  </div>
+                  <a href="#" class="shops-logo">
+                    <img src="./images/dessert_logo-01.png" alt="店家logo" />
+                  </a>
+                </div>
+              </div>
+              <div class="customers-item">
+                <div class="name">
+                  <div class="name-img">
+                    <img src="./images/customer-2.jpg" alt="顧客頭像" />
+                  </div>
+                  <div class="name-text">
+                    <span>Meredith Smith</span>
+                    <span>39 minutes ago</span>
+                  </div>
+                </div>
+                <div class="content">
+                  <p>
+                    可麗露就真的還挺不錯的，外層為硬脆厚實的褐色焦糖外殼，內層冰軟微濕的蛋糕體，外加點酒香味，真的是棒極了！
+                  </p>
+                </div>
+                <div class="other">
+                  <div class="star">
+                    <div class="star-icon">
+                      <svg
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"
+                          fill="#FFC700"
+                        />
+                      </svg>
+                    </div>
+                    <div class="number">
+                      <span>5</span>
+                    </div>
+                  </div>
+                  <a href="" class="shops-logo">
+                    <img src="./images/dessert_logo-02.png" alt="店家logo" />
+                  </a>
+                </div>
+              </div>
+              <div class="customers-item">
+                <div class="name">
+                  <div class="name-img">
+                    <img src="./images/customer-3.jpg" alt="顧客頭像" />
+                  </div>
+                  <div class="name-text">
+                    <span>Meredith Smith</span>
+                    <span>39 minutes ago</span>
+                  </div>
+                </div>
+                <div class="content">
+                  <p>
+                    外層呈現焦糖香脆的口感，真的很脆但也偏硬，在咀嚼的時候還聽到喀次聲，內部是濕軟香的風味，是好吃的但沒有驚艷。
+                  </p>
+                </div>
+                <div class="other">
+                  <div class="star">
+                    <div class="star-icon">
+                      <svg
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"
+                          fill="#FFC700"
+                        />
+                      </svg>
+                    </div>
+                    <div class="number">
+                      <span>5</span>
+                    </div>
+                  </div>
+                  <a href="" class="shops-logo">
+                    <img src="./images/dessert_logo-03.png" alt="店家logo" />
+                  </a>
+                </div>
+              </div>
+              <div class="customers-item">
+                <div class="name">
+                  <div class="name-img">
+                    <img src="./images/customer-4.jpg" alt="顧客頭像" />
+                  </div>
+                  <div class="name-text">
+                    <span>Meredith Smith</span>
+                    <span>39 minutes ago</span>
+                  </div>
+                </div>
+                <div class="content">
+                  <p>
+                    酒味其實挺濃厚的，所以吃多了除了會發胖之外可能也會微醺喔！我其實是個不喜歡威士忌的人，但這可麗露我很可以。
+                  </p>
+                </div>
+                <div class="other">
+                  <div class="star">
+                    <div class="star-icon">
+                      <svg
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"
+                          fill="#FFC700"
+                        />
+                      </svg>
+                    </div>
+                    <div class="number">
+                      <span>5</span>
+                    </div>
+                  </div>
+                  <a href="" class="shops-logo">
+                    <img src="./images/dessert_logo-04.png" alt="店家logo" />
+                  </a>
+                </div>
+              </div>
+              <div class="customers-item">
+                <div class="name">
+                  <div class="name-img">
+                    <img src="./images/customer-5.jpg" alt="顧客頭像" />
+                  </div>
+                  <div class="name-text">
+                    <span>Meredith Smith</span>
+                    <span>39 minutes ago</span>
+                  </div>
+                </div>
+                <div class="content">
+                  <p>
+                    老闆服務態度好且專業，環境整潔溫馨，可麗露每日限量真的很推。
+                  </p>
+                </div>
+                <div class="other">
+                  <div class="star">
+                    <div class="star-icon">
+                      <svg
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"
+                          fill="#FFC700"
+                        />
+                      </svg>
+                    </div>
+                    <div class="number">
+                      <span>5</span>
+                    </div>
+                  </div>
+                  <a href="" class="shops-logo">
+                    <img src="./images/dessert_logo-05.png" alt="店家logo" />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="customers-left2">
+              <div class="customers-item">
+                <div class="name">
+                  <div class="name-img">
+                    <img src="./images/customer-6.jpg" alt="顧客頭像" />
+                  </div>
+                  <div class="name-text">
+                    <span>Meredith Smith</span>
+                    <span>39 minutes ago</span>
+                  </div>
+                </div>
+                <div class="content">
+                  <p>可麗露每日限量，口味多元，服務態度不錯。</p>
+                </div>
+                <div class="other">
+                  <div class="star">
+                    <div class="star-icon">
+                      <svg
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"
+                          fill="#FFC700"
+                        />
+                      </svg>
+                    </div>
+                    <div class="number">
+                      <span>5</span>
+                    </div>
+                  </div>
+                  <a href="" class="shops-logo">
+                    <img src="./images/dessert_logo-06.png" alt="店家logo" />
+                  </a>
+                </div>
+              </div>
+              <div class="customers-item">
+                <div class="name">
+                  <div class="name-img">
+                    <img src="./images/customer-7.jpg" alt="顧客頭像" />
+                  </div>
+                  <div class="name-text">
+                    <span>Meredith Smith</span>
+                    <span>39 minutes ago</span>
+                  </div>
+                </div>
+                <div class="content">
+                  <p>
+                    可麗露就真的還挺不錯的，外層為硬脆厚實的褐色焦糖外殼，內層冰軟微濕的蛋糕體，外加點酒香味，真的是棒極了！
+                  </p>
+                </div>
+                <div class="other">
+                  <div class="star">
+                    <div class="star-icon">
+                      <svg
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"
+                          fill="#FFC700"
+                        />
+                      </svg>
+                    </div>
+                    <div class="number">
+                      <span>5</span>
+                    </div>
+                  </div>
+                  <a href="" class="shops-logo">
+                    <img src="./images/dessert_logo-07.png" alt="店家logo" />
+                  </a>
+                </div>
+              </div>
+              <div class="customers-item">
+                <div class="name">
+                  <div class="name-img">
+                    <img src="./images/customer-8.jpg" alt="顧客頭像" />
+                  </div>
+                  <div class="name-text">
+                    <span>Meredith Smith</span>
+                    <span>39 minutes ago</span>
+                  </div>
+                </div>
+                <div class="content">
+                  <p>第一次吃可麗露，內餡QQ口感很喜歡。</p>
+                </div>
+                <div class="other">
+                  <div class="star">
+                    <div class="star-icon">
+                      <svg
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"
+                          fill="#FFC700"
+                        />
+                      </svg>
+                    </div>
+                    <div class="number">
+                      <span>5</span>
+                    </div>
+                  </div>
+                  <a href="" class="shops-logo">
+                    <img src="./images/dessert_logo-08.png" alt="店家logo" />
+                  </a>
+                </div>
+              </div>
+              <div class="customers-item">
+                <div class="name">
+                  <div class="name-img">
+                    <img src="./images/customer-9.jpg" alt="顧客頭像" />
+                  </div>
+                  <div class="name-text">
+                    <span>Meredith Smith</span>
+                    <span>39 minutes ago</span>
+                  </div>
+                </div>
+                <div class="content">
+                  <p>
+                    回購第二次，還是覺得店家的可麗露是心目中最好吃的，剛出爐外層非常酥脆香甜，即便放一段時間外層也還是酥酥的，多種口味可以選擇，最愛的口味還是經典原味。
+                  </p>
+                </div>
+                <div class="other">
+                  <div class="star">
+                    <div class="star-icon">
+                      <svg
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"
+                          fill="#FFC700"
+                        />
+                      </svg>
+                    </div>
+                    <div class="number">
+                      <span>5</span>
+                    </div>
+                  </div>
+                  <a href="" class="shops-logo">
+                    <img src="./images/dessert_logo-09.png" alt="店家logo" />
+                  </a>
+                </div>
+              </div>
+              <div class="customers-item">
+                <div class="name">
+                  <div class="name-img">
+                    <img src="./images/customer-10.jpg" alt="顧客頭像" />
+                  </div>
+                  <div class="name-text">
+                    <span>Meredith Smith</span>
+                    <span>39 minutes ago</span>
+                  </div>
+                </div>
+                <div class="content">
+                  <p>
+                    剛出爐的就很卡滋卡滋，ㄎㄠˊㄎㄠˊㄎㄠˊ外酥內脆，老闆娘有說冷凍過更好吃！
+                  </p>
+                </div>
+                <div class="other">
+                  <div class="star">
+                    <div class="star-icon">
+                      <svg
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"
+                          fill="#FFC700"
+                        />
+                      </svg>
+                    </div>
+                    <div class="number">
+                      <span>5</span>
+                    </div>
+                  </div>
+                  <a href="" class="shops-logo">
+                    <img src="./images/dessert_logo-10.png" alt="店家logo" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="customers-right">
+            <div class="customers-right1">
+              <div class="customers-item">
+                <div class="name">
+                  <div class="name-img">
+                    <img src="./images/customer-1.jpg" alt="顧客頭像" />
+                  </div>
+                  <div class="name-text">
+                    <span>Meredith Smith</span>
+                    <span>39 minutes ago</span>
+                  </div>
+                </div>
+                <div class="content">
+                  <p>
+                    新開的一家店來嘗試可麗露，覺得還不錯，店內布置的風格我很喜歡，想與朋友聊天說笑這裡非常合適。
+                  </p>
+                </div>
+                <div class="other">
+                  <div class="star">
+                    <div class="star-icon">
+                      <svg
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"
+                          fill="#FFC700"
+                        />
+                      </svg>
+                    </div>
+                    <div class="number">
+                      <span>5</span>
+                    </div>
+                  </div>
+                  <a href="" class="shops-logo">
+                    <img src="./images/dessert_logo-01.png" alt="店家logo" />
+                  </a>
+                </div>
+              </div>
+              <div class="customers-item">
+                <div class="name">
+                  <div class="name-img">
+                    <img src="./images/customer-2.jpg" alt="顧客頭像" />
+                  </div>
+                  <div class="name-text">
+                    <span>Meredith Smith</span>
+                    <span>39 minutes ago</span>
+                  </div>
+                </div>
+                <div class="content">
+                  <p>
+                    網友都非常推的一家甜點店，雖然需要事先預訂，迫不及待買回家立馬開封吃，真的超好吃，不知不覺就吃完了，看來又要在下訂了~~~
+                  </p>
+                </div>
+                <div class="other">
+                  <div class="star">
+                    <div class="star-icon">
+                      <svg
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"
+                          fill="#FFC700"
+                        />
+                      </svg>
+                    </div>
+                    <div class="number">
+                      <span>5</span>
+                    </div>
+                  </div>
+                  <a href="" class="shops-logo">
+                    <img src="./images/dessert_logo-02.png" alt="店家logo" />
+                  </a>
+                </div>
+              </div>
+              <div class="customers-item">
+                <div class="name">
+                  <div class="name-img">
+                    <img src="./images/customer-3.jpg" alt="顧客頭像" />
+                  </div>
+                  <div class="name-text">
+                    <span>Meredith Smith</span>
+                    <span>39 minutes ago</span>
+                  </div>
+                </div>
+                <div class="content">
+                  <p>
+                    買了超好吃的可麗露，店家口味不多，但每一樣都很經典，用料都非常實在。最喜歡綜合禮盒，每一個口味都吃的到~
+                  </p>
+                </div>
+                <div class="other">
+                  <div class="star">
+                    <div class="star-icon">
+                      <svg
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"
+                          fill="#FFC700"
+                        />
+                      </svg>
+                    </div>
+                    <div class="number">
+                      <span>5</span>
+                    </div>
+                  </div>
+                  <a href="" class="shops-logo">
+                    <img src="./images/dessert_logo-03.png" alt="店家logo" />
+                  </a>
+                </div>
+              </div>
+              <div class="customers-item">
+                <div class="name">
+                  <div class="name-img">
+                    <img src="./images/customer-4.jpg" alt="顧客頭像" />
+                  </div>
+                  <div class="name-text">
+                    <span>Meredith Smith</span>
+                    <span>39 minutes ago</span>
+                  </div>
+                </div>
+                <div class="content">
+                  <p>
+                    特定從南部上來買這家可麗露，香氣十足，內餡飽滿QQ口感很好吃。
+                  </p>
+                </div>
+                <div class="other">
+                  <div class="star">
+                    <div class="star-icon">
+                      <svg
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"
+                          fill="#FFC700"
+                        />
+                      </svg>
+                    </div>
+                    <div class="number">
+                      <span>5</span>
+                    </div>
+                  </div>
+                  <a href="" class="shops-logo">
+                    <img src="./images/dessert_logo-04.png" alt="店家logo" />
+                  </a>
+                </div>
+              </div>
+              <div class="customers-item">
+                <div class="name">
+                  <div class="name-img">
+                    <img src="./images/customer-5.jpg" alt="顧客頭像" />
+                  </div>
+                  <div class="name-text">
+                    <span>Meredith Smith</span>
+                    <span>39 minutes ago</span>
+                  </div>
+                </div>
+                <div class="content">
+                  <p>趁優惠與朋友一起團購，這家冷凍後吃也很好吃耶！！！</p>
+                </div>
+                <div class="other">
+                  <div class="star">
+                    <div class="star-icon">
+                      <svg
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"
+                          fill="#FFC700"
+                        />
+                      </svg>
+                    </div>
+                    <div class="number">
+                      <span>5</span>
+                    </div>
+                  </div>
+                  <a href="" class="shops-logo">
+                    <img src="./images/dessert_logo-05.png" alt="店家logo" />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="customers-right2">
+              <div class="customers-item">
+                <div class="name">
+                  <div class="name-img">
+                    <img src="./images/customer-6.jpg" alt="顧客頭像" />
+                  </div>
+                  <div class="name-text">
+                    <span>Meredith Smith</span>
+                    <span>39 minutes ago</span>
+                  </div>
+                </div>
+                <div class="content">
+                  <p>巧克力口味的可麗露超級優秀！</p>
+                </div>
+                <div class="other">
+                  <div class="star">
+                    <div class="star-icon">
+                      <svg
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"
+                          fill="#FFC700"
+                        />
+                      </svg>
+                    </div>
+                    <div class="number">
+                      <span>5</span>
+                    </div>
+                  </div>
+                  <a href="" class="shops-logo">
+                    <img src="./images/dessert_logo-06.png" alt="店家logo" />
+                  </a>
+                </div>
+              </div>
+              <div class="customers-item">
+                <div class="name">
+                  <div class="name-img">
+                    <img src="./images/customer-7.jpg" alt="顧客頭像" />
+                  </div>
+                  <div class="name-text">
+                    <span>Meredith Smith</span>
+                    <span>39 minutes ago</span>
+                  </div>
+                </div>
+                <div class="content">
+                  <p>
+                    無限次回購的可麗露，他們的可麗露每個造型都很用心、非常可愛，而且是目前看過可麗露尺寸最大顆的！外殼脆、內餡無論哪種口味都很好吃，私心推薦肉桂可麗露！真的必須點爆！
+                  </p>
+                </div>
+                <div class="other">
+                  <div class="star">
+                    <div class="star-icon">
+                      <svg
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"
+                          fill="#FFC700"
+                        />
+                      </svg>
+                    </div>
+                    <div class="number">
+                      <span>5</span>
+                    </div>
+                  </div>
+                  <a href="" class="shops-logo">
+                    <img src="./images/dessert_logo-07.png" alt="店家logo" />
+                  </a>
+                </div>
+              </div>
+              <div class="customers-item">
+                <div class="name">
+                  <div class="name-img">
+                    <img src="./images/customer-8.jpg" alt="顧客頭像" />
+                  </div>
+                  <div class="name-text">
+                    <span>Meredith Smith</span>
+                    <span>39 minutes ago</span>
+                  </div>
+                </div>
+                <div class="content">
+                  <p>
+                    台北甜點最愛之一，口味多，焦脆的外皮完全忘記熱量這件事哈哈。私心最愛花生口味！
+                  </p>
+                </div>
+                <div class="other">
+                  <div class="star">
+                    <div class="star-icon">
+                      <svg
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"
+                          fill="#FFC700"
+                        />
+                      </svg>
+                    </div>
+                    <div class="number">
+                      <span>5</span>
+                    </div>
+                  </div>
+                  <a href="" class="shops-logo">
+                    <img src="./images/dessert_logo-08.png" alt="店家logo" />
+                  </a>
+                </div>
+              </div>
+              <div class="customers-item">
+                <div class="name">
+                  <div class="name-img">
+                    <img src="./images/customer-9.jpg" alt="顧客頭像" />
+                  </div>
+                  <div class="name-text">
+                    <span>Meredith Smith</span>
+                    <span>39 minutes ago</span>
+                  </div>
+                </div>
+                <div class="content">
+                  <p>
+                    咖啡可麗露，外酥內軟，搭配冰咖啡內餡，第一次吃專門的可麗露，真的很厲害！
+                  </p>
+                </div>
+                <div class="other">
+                  <div class="star">
+                    <div class="star-icon">
+                      <svg
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"
+                          fill="#FFC700"
+                        />
+                      </svg>
+                    </div>
+                    <div class="number">
+                      <span>5</span>
+                    </div>
+                  </div>
+                  <a href="" class="shops-logo">
+                    <img src="./images/dessert_logo-09.png" alt="店家logo" />
+                  </a>
+                </div>
+              </div>
+              <div class="customers-item">
+                <div class="name">
+                  <div class="name-img">
+                    <img src="./images/customer-10.jpg" alt="顧客頭像" />
+                  </div>
+                  <div class="name-text">
+                    <span>Meredith Smith</span>
+                    <span>39 minutes ago</span>
+                  </div>
+                </div>
+                <div class="content">
+                  <p>
+                    外皮硬硬脆脆的，內裡香軟甜糯，再加上各種不同口味，我最喜歡提拉露露，真的很好吃，店家製作的可麗露很有水準。
+                  </p>
+                </div>
+                <div class="other">
+                  <div class="star">
+                    <div class="star-icon">
+                      <svg
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"
+                          fill="#FFC700"
+                        />
+                      </svg>
+                    </div>
+                    <div class="number">
+                      <span>5</span>
+                    </div>
+                  </div>
+                  <a href="" class="shops-logo">
+                    <img src="./images/dessert_logo-10.png" alt="店家logo" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ區 -->
+      <section id="faq">
+        <div class="faq-box">
+          <div class="faq-title">
+            <h2>FAQ</h2>
+          </div>
+          <ul class="faq-list">
+            <li>
+              <h3 class="faq-header">請問可以直接下單購買可麗露商品嗎?</h3>
+              <div class="faq-text">
+                <p>
+                  我們是一個分享多個店家有販售可麗露商品的平台，為您提供方便的購買渠道。在我們的網站上，您可以瀏覽多個店家的產品，並透過我們提供的連結或指引，直接前往相應的購買頁面。
+                </p>
+                <p>
+                  <strong>請注意，我們的網站不直接處理訂單或交易</strong
+                  >。當您決定購買可麗露商品時，您將被引導至實際銷售商家的官方網站或合作夥伴頁面，那裡您可以找到詳細的產品資訊、價格和下單選項。您可以根據您的喜好和需求，選擇最合適的商家完成購買流程。
+                </p>
+                <p>
+                  我們的目標是為您提供方便快捷的購物體驗，並幫助您找到可麗露商品的多樣選擇。如有任何問題或需要進一步協助，請隨時聯繫我們，我們將盡力為您提供支援。
+                </p>
+                <p>謝謝！</p>
+              </div>
+            </li>
+            <li>
+              <h3 class="faq-header">想要收到有關店家最新消息我可以怎麼做?</h3>
+              <div class="faq-text">
+                <p>
+                  感謝您對我們網站的關注！如果您希望收到有關店家最新消息的資訊，以下是幾種方法供您參考：
+                </p>
+                <p>訂閱郵件通訊:</p>
+                <p>
+                  在我們的網站上，您可以尋找訂閱郵件通訊的選項。通常這個選項會出現在網站的頁尾或是訂閱專區。輸入您的電子郵件地址，並按照提示完成訂閱程序。這樣一來，當店家有新的消息、促銷活動或產品發布時，您將會收到相關的郵件通知。
+                </p>
+                <p>追蹤社交媒體:</p>
+                <p>
+                  我們的網站可能也有相應的社交媒體帳號，例如Facebook、Instagram或Twitter。透過追蹤這些帳號，您可以獲得店家的最新消息、產品更新和促銷活動等資訊。在社交媒體上，您也可以參與互動，如留言、分享和參加抽獎等活動。
+                </p>
+                <p>瀏覽網站更新:</p>
+                <p>
+                  您可以定期造訪我們的網站，以尋找店家的最新消息。我們會不斷更新和發佈有關店家的新內容、產品資訊以及特價促銷等等。請確保您關注我們網站上的公告或消息欄位，以確保不錯過任何重要資訊。
+                </p>
+                <p>
+                  透過以上方法，您可以保持與店家最新消息的同步，並及時獲得促銷活動和新產品發佈的相關資訊。如有其他問題或需要進一步協助，請隨時聯繫我們，我們將竭誠為您提供支援。
+                </p>
+                <p>謝謝！</p>
+              </div>
+            </li>
+            <li>
+              <h3 class="faq-header">如何發表個人評論?</h3>
+              <div class="faq-text">
+                <p>
+                  我們非常歡迎每位顧客分享個人評論，以幫助其他更多用戶了解可麗路與提升使用體驗。
+                </p>
+                <p>
+                  在網頁下方 "聯絡我們"
+                  可留下您的寶貴建議。您可以分享使用體驗、商品質量、客戶服務等方面的評價。
+                </p>
+                <p>
+                  我們鼓勵用戶發表真實、客觀和有建設性的評論。請尊重其他用戶的意見，避免使用冒犯性、不當言語或侵犯他人隱私的內容。我們保留刪除不符合社群準則或濫用評論功能的評論的權利。
+                </p>
+                <p>
+                  透過以上說明，您可以輕鬆地在我們的網站上發表個人評論，分享您的觀點和體驗。如有其他問題或需要進一步協助，請隨時聯繫我們，我們將竭誠為您提供支援。
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- 店家logo區 -->
+      <section id="shops_logo">
+        <div class="shop-logo">
+          <div class="shop-logo-top">
+            <a href=""
+              ><img src="./images/dessert_logo-01.png" alt="店家logo"
+            /></a>
+            <a href=""
+              ><img src="./images/dessert_logo-02.png" alt="店家logo"
+            /></a>
+            <a href=""
+              ><img src="./images/dessert_logo-03.png" alt="店家logo"
+            /></a>
+            <a href=""
+              ><img src="./images/dessert_logo-04.png" alt="店家logo"
+            /></a>
+            <a href=""
+              ><img src="./images/dessert_logo-05.png" alt="店家logo"
+            /></a>
+            <a href=""
+              ><img src="./images/dessert_logo-06.png" alt="店家logo"
+            /></a>
+            <a href=""
+              ><img src="./images/dessert_logo-07.png" alt="店家logo"
+            /></a>
+            <a href=""
+              ><img src="./images/dessert_logo-08.png" alt="店家logo"
+            /></a>
+            <a href=""
+              ><img src="./images/dessert_logo-09.png" alt="店家logo"
+            /></a>
+            <a href=""
+              ><img src="./images/dessert_logo-10.png" alt="店家logo"
+            /></a>
+          </div>
+          <div class="shop-logo-top">
+            <a href=""
+              ><img src="./images/dessert_logo-01.png" alt="店家logo"
+            /></a>
+            <a href=""
+              ><img src="./images/dessert_logo-02.png" alt="店家logo"
+            /></a>
+            <a href=""
+              ><img src="./images/dessert_logo-03.png" alt="店家logo"
+            /></a>
+            <a href=""
+              ><img src="./images/dessert_logo-04.png" alt="店家logo"
+            /></a>
+            <a href=""
+              ><img src="./images/dessert_logo-05.png" alt="店家logo"
+            /></a>
+            <a href=""
+              ><img src="./images/dessert_logo-06.png" alt="店家logo"
+            /></a>
+            <a href=""
+              ><img src="./images/dessert_logo-07.png" alt="店家logo"
+            /></a>
+            <a href=""
+              ><img src="./images/dessert_logo-08.png" alt="店家logo"
+            /></a>
+            <a href=""
+              ><img src="./images/dessert_logo-09.png" alt="店家logo"
+            /></a>
+            <a href=""
+              ><img src="./images/dessert_logo-10.png" alt="店家logo"
+            /></a>
+          </div>
+        </div>
+        <div class="shop-logo2">
+          <div class="shop-logo-bottom">
+            <a href=""
+              ><img src="./images/dessert_logo-01.png" alt="店家logo"
+            /></a>
+            <a href=""
+              ><img src="./images/dessert_logo-02.png" alt="店家logo"
+            /></a>
+            <a href=""
+              ><img src="./images/dessert_logo-03.png" alt="店家logo"
+            /></a>
+            <a href=""
+              ><img src="./images/dessert_logo-04.png" alt="店家logo"
+            /></a>
+            <a href=""
+              ><img src="./images/dessert_logo-05.png" alt="店家logo"
+            /></a>
+            <a href=""
+              ><img src="./images/dessert_logo-06.png" alt="店家logo"
+            /></a>
+            <a href=""
+              ><img src="./images/dessert_logo-07.png" alt="店家logo"
+            /></a>
+            <a href=""
+              ><img src="./images/dessert_logo-08.png" alt="店家logo"
+            /></a>
+            <a href=""
+              ><img src="./images/dessert_logo-09.png" alt="店家logo"
+            /></a>
+            <a href=""
+              ><img src="./images/dessert_logo-10.png" alt="店家logo"
+            /></a>
+          </div>
+          <div class="shop-logo-bottom">
+            <a href=""
+              ><img src="./images/dessert_logo-01.png" alt="店家logo"
+            /></a>
+            <a href=""
+              ><img src="./images/dessert_logo-02.png" alt="店家logo"
+            /></a>
+            <a href=""
+              ><img src="./images/dessert_logo-03.png" alt="店家logo"
+            /></a>
+            <a href=""
+              ><img src="./images/dessert_logo-04.png" alt="店家logo"
+            /></a>
+            <a href=""
+              ><img src="./images/dessert_logo-05.png" alt="店家logo"
+            /></a>
+            <a href=""
+              ><img src="./images/dessert_logo-06.png" alt="店家logo"
+            /></a>
+            <a href=""
+              ><img src="./images/dessert_logo-07.png" alt="店家logo"
+            /></a>
+            <a href=""
+              ><img src="./images/dessert_logo-08.png" alt="店家logo"
+            /></a>
+            <a href=""
+              ><img src="./images/dessert_logo-09.png" alt="店家logo"
+            /></a>
+            <a href=""
+              ><img src="./images/dessert_logo-10.png" alt="店家logo"
+            /></a>
+          </div>
+        </div>
+      </section>
+
+      <div class="page-bottom-bg">
+        <!-- 表單區 -->
+        <section id="contact" class="contact">
+          <form id="form" class="contact-wrapper">
+            <h1 class="contact-title">Contact Us</h1>
+            <div class="contact-form-wrapper">
+              <div class="form-row-container">
+                <div class="row-name-phone w-100">
+                  <div class="form-row w-100">
+                    <label for="">姓名：</label>
+                    <div class="validation-container">
+                      <input
+                        id="userName"
+                        name="name"
+                        autocomplete="off"
+                        oninput="validName(userName)"
+                        type="text"
+                        class="w-100 input-field"
+                        placeholder="Gingy"
+                      />
+                      <small class="validation">Error Message</small>
+                    </div>
+                  </div>
+                  <div class="form-row w-100">
+                    <label for="">電話：</label>
+                    <div class="validation-container">
+                      <input
+                        id="userPhone"
+                        name="tel"
+                        oninput="validTel(userPhone)"
+                        autocomplete="off"
+                        type="tel"
+                        class="w-100 input-field"
+                        maxlength="10"
+                        placeholder="09xxxxxxxx / 02xxxxxxxx"
+                      />
+                      <small class="validation">Error Message</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-row w-100">
+                  <label for="">信箱：</label>
+                  <div class="validation-container">
+                    <input
+                      id="userEmail"
+                      name="email"
+                      oninput="validEmail(userEmail)"
+                      autocomplete="off"
+                      type="email"
+                      class="w-100 input-field"
+                      placeholder="abc@mail.com"
+                    />
+                    <small class="validation">Error Message</small>
+                  </div>
+                </div>
+                <div class="form-row w-100">
+                  <label for="">留言：</label>
+                  <div class="validation-container">
+                    <textarea
+                      id="userMessage"
+                      name="message"
+                      autocomplete="off"
+                      oninput="validMessage(userMessage)"
+                      class="w-100 scrollbar input-field"
+                      rows="3"
+                      placeholder="Type Messages Here"
+                    ></textarea>
+                    <small class="validation">Error Message</small>
+                  </div>
+                </div>
+              </div>
+              <button
+                type="submit"
+                class="submit-button w-100"
+                id="submit-button"
+              >
+                <p id="btnText">Submit</p>
+                <div class="check-box">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+                    <path fill="transparent" d="M14.1 27.2l7.1 7.2 16.7-16.8" />
+                  </svg>
+                </div>
+              </button>
+            </div>
+          </form>
+        </section>
+        <!-- footer區 -->
+        <footer id="footer">
+          <div class="footer-box">
+            <div class="footer-top">
+              <div class="footer-top-left">
+                <a href="./index.html"
+                  ><img src="./images/footer-logo.svg" alt="footer-logo"
+                /></a>
+              </div>
+              <div class="footer-top-right">
+                <div class="footer-top-right-1">
+                  <span class="icon-mail"></span>
+                  <span>訂閱電子報</span>
+                </div>
+                <div class="footer-top-right-2">
+                  <span
+                    >立即註冊訂閱，讓您即時了解 SD Canelés 的最新資訊。</span
+                  >
+                </div>
+                <form class="footer-top-right-3" id="newsletterForm">
+                  <label for="newsletter"></label>
+                  <input
+                    type="email"
+                    name="newsletter"
+                    id="newsletter"
+                    placeholder="請輸入信箱"
+                    autocomplete="off"
+                    onkeydown="validationNewsletter()"
+                  />
+                  <span id="newsletterMsg"></span>
+                  <button type="button" class="pop-btn">
+                    <img
+                      src="./images/send.svg"
+                      alt="subscribe-newsletter-button"
+                    />
+                  </button>
+                  <div class="modal-container">
+                    <div class="newsletter-modal">
+                      <p>Thank You For Subscribing !</p>
+                      <span class="x" draggable="true">&times;</span>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="footer-bottom">
+              <div class="footer-bottom-left">
+                <span>© 2022 SD Canelés. All Rights Reserved.</span>
+              </div>
+              <div class="footer-bottom-right">
+                <a href="./index.html">首頁</a>
+                <a href="./pages/news.html">最新消息</a>
+                <a href="./pages/shops.html">店鋪夥伴</a>
+                <a href="./pages/product.html">商品一覽</a>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+
+      <!-- shops -->
+      <div class="shops"></div>
+      <!-- top -->
+      <div id="top">
+        <img src="./images/top.svg" alt="scroll to top button" />
+      </div>
+    </main>
+
+    <!-- jquery -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.js"
+      integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+      crossorigin="anonymous"
+    ></script>
+    <!-- slick輪播 -->
+    <script src="./js/slick.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/form-validation.js"></script>
+    <!-- mapbox -->
+    <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.js"></script>
+    <script src="./js/map.js"></script>
+  </body>
+</html>

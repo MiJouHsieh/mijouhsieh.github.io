@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SD Canelés | 可麗露資訊平台 | 店鋪夥伴</title>
+    <!-- slick輪播 -->
+    <link rel="stylesheet" href="../css/slick.css" />
+    <!--Bootstrap CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/slick-theme.css" />
+    <link rel="stylesheet" href="../css/page.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+
+  <body>
+    <!-- 頁首 -->
+    <header>
+      <div class="header-box">
+        <a href="../index.html">
+          <h1 class="logo">
+            <img src="../images/logo.svg" alt="SD Canelés可麗露平台logo" />
+          </h1>
+        </a>
+      </div>
+    </header>
+    <div class="nav-box">
+      <input type="checkbox" name="nav-button" id="nav-button" />
+      <nav id="menu">
+        <a href="../index.html">首頁</a>
+        <a href="./news.html"> 最新消息</a>
+        <a href="./shops.html"> 店鋪夥伴</a>
+        <a href="./product.html"> 商品一覽</a>
+        <a href="./faq.html"> FAQ</a>
+        <div class="menu-img"></div>
+      </nav>
+    </div>
+    <!-- 主要內容 -->
+    <main>
+      <div id="shops-page-title" class="page-title">
+        <h2>SHOPS</h2>
+      </div>
+
+      <div id="shops-page-content">
+        <div class="shops-content-left">
+          <div class="shop-select">
+            <div class="shops-content-left-1">
+              <h3>地區</h3>
+              <ul class="shops-township">
+                <li data-shop_area="all">
+                  <label><input type="checkbox" /><span>全部</span></label>
+                </li>
+                <li data-shop_area="Xinyi">
+                  <label><input type="checkbox" /><span>信義區</span></label>
+                </li>
+                <li data-shop_area="Songshan">
+                  <label><input type="checkbox" /><span>松山區</span></label>
+                </li>
+                <li data-shop_area="Daan">
+                  <label><input type="checkbox" /><span>大安區</span></label>
+                </li>
+                <li data-shop_area="Shilin">
+                  <label><input type="checkbox" /><span>士林區</span></label>
+                </li>
+                <li data-shop_area="Zhongzheng">
+                  <label><input type="checkbox" /><span>中正區</span></label>
+                </li>
+                <li data-shop_area="Datong">
+                  <label><input type="checkbox" /><span>大同區</span></label>
+                </li>
+              </ul>
+            </div>
+            <div class="shops-content-left-2">
+              <h3>活動</h3>
+              <ul class="shops-activity">
+                <li data-shop-activity="reserve">
+                  <label
+                    ><input type="checkbox" /><span class="dot dot-yellow"
+                      >預約體驗課程</span
+                    ></label
+                  >
+                </li>
+                <li data-shop-activity="teamBuy">
+                  <label
+                    ><input type="checkbox" /><span class="dot dot-orange"
+                      >限時團購</span
+                    ></label
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="shops-content-right">
+          <ul class="shops">
+            <li class="shop-1" data-id="0" data-shop="Daan">
+              <a href="" class="shops-item">
+                <div class="shops-img">
+                  <img src="../images/shops-1.jpg" alt="" />
+                </div>
+                <div class="shops-text">
+                  <h3>Flower Dessert</h3>
+                </div>
+                <div class="shops-add">
+                  <span>台北市大安區新生南路三段84號一樓</span>
+                </div>
+              </a>
+            </li>
+            <li
+              class="shop-2"
+              data-id="1"
+              data-shop="Datong"
+              data-activity="reserve"
+            >
+              <a href="" class="shops-item">
+                <div class="shops-img">
+                  <img src="../images/shops-2.jpg" alt="" />
+                </div>
+                <div class="shops-text">
+                  <h3 class="dot dot-yellow">鑽品咖啡館</h3>
+                </div>
+                <div class="shops-add">
+                  <span>台北市大同區重慶北路200號</span>
+                </div>
+              </a>
+            </li>
+            <li class="shop-3" data-id="2" data-shop="Shilin">
+              <a href="" class="shops-item">
+                <div class="shops-img">
+                  <img src="../images/shops-3.jpg" alt="" />
+                </div>
+                <div class="shops-text">
+                  <h3>Happy Cake</h3>
+                </div>
+                <div class="shops-add">
+                  <span>台北市士林區天母西路300號</span>
+                </div>
+              </a>
+            </li>
+            <li
+              class="shop-4"
+              data-id="3"
+              data-shop="Datong"
+              data-activity="teamBuy"
+            >
+              <a href="" class="shops-item">
+                <div class="shops-img">
+                  <img src="../images/shops-4.jpg" alt="" />
+                </div>
+                <div class="shops-text">
+                  <h3 class="dot dot-orange">MJ 甜品</h3>
+                </div>
+                <div class="shops-add">
+                  <span>台北市大同區重慶北路200號</span>
+                </div>
+              </a>
+            </li>
+            <li class="shop-5" data-id="4" data-shop="Songshan">
+              <a href="" class="shops-item">
+                <div class="shops-img">
+                  <img src="../images/shops-5.jpg" alt="" />
+                </div>
+                <div class="shops-text">
+                  <h3>海點麵包坊</h3>
+                </div>
+                <div class="shops-add">
+                  <span>台北市松山區西寧南路500號</span>
+                </div>
+              </a>
+            </li>
+            <li class="shop-6" data-id="5" data-shop="Zhongzheng">
+              <a href="" class="shops-item">
+                <div class="shops-img">
+                  <img src="../images/shops-6.jpg" alt="" />
+                </div>
+                <div class="shops-text">
+                  <h3>蕾妮雅甜點實驗室</h3>
+                </div>
+                <div class="shops-add">
+                  <span>台北市中正區瑞湖街600號</span>
+                </div>
+              </a>
+            </li>
+            <li class="shop-7" data-id="6" data-shop="Xinyi">
+              <a href="" class="shops-item">
+                <div class="shops-img">
+                  <img src="../images/shops-7.jpg" alt="" />
+                </div>
+                <div class="shops-text">
+                  <h3>MU MING</h3>
+                </div>
+                <div class="shops-add">
+                  <span>台北市信義區基隆路700號</span>
+                </div>
+              </a>
+            </li>
+            <li
+              class="shop-8"
+              data-id="7"
+              data-shop="Daan"
+              data-activity="teamBuy"
+            >
+              <a href="" class="shops-item">
+                <div class="shops-img">
+                  <img src="../images/shops-8.jpg" alt="" />
+                </div>
+                <div class="shops-text">
+                  <h3 class="dot dot-orange">熊貝貝</h3>
+                </div>
+                <div class="shops-add">
+                  <span>台北市大安區忠孝東路800號</span>
+                </div>
+              </a>
+            </li>
+            <li class="shop-9" data-id="8" data-shop="Datong">
+              <a href="" class="shops-item">
+                <div class="shops-img">
+                  <img src="../images/shops-9.jpg" alt="" />
+                </div>
+                <div class="shops-text">
+                  <h3>御品甜點</h3>
+                </div>
+                <div class="shops-add">
+                  <span>台北市大同區舊莊街900號</span>
+                </div>
+              </a>
+            </li>
+            <li class="shop-10" data-id="9" data-shop="Xinyi">
+              <a href="" class="shops-item">
+                <div class="shops-img">
+                  <img src="../images/shops-10.jpg" alt="" />
+                </div>
+                <div class="shops-text">
+                  <h3>Canelé</h3>
+                </div>
+                <div class="shops-add">
+                  <span>台北市信義區木柵路1001號</span>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <footer id="footer">
+        <div class="footer-box">
+          <div class="footer-top">
+            <div class="footer-top-left">
+              <a href="./index.html"
+                ><img src="../images/footer-logo.svg" alt="footer-logo"
+              /></a>
+            </div>
+            <div class="footer-top-right">
+              <div class="footer-top-right-1">
+                <span class="icon-mail"></span>
+                <span>訂閱電子報</span>
+              </div>
+              <div class="footer-top-right-2">
+                <span>立即註冊訂閱，讓您即時了解 SD Canelés 的最新資訊。</span>
+              </div>
+              <form class="footer-top-right-3" id="newsletterForm">
+                <label id="newsletter-label" for="newsletter"></label>
+                <input
+                  type="email"
+                  name="newsletter"
+                  id="newsletter"
+                  placeholder="請輸入信箱"
+                  autocomplete="off"
+                  onkeydown="validationNewsletter()"
+                />
+                <span id="newsletterMsg"></span>
+                <button type="button" class="pop-btn">
+                  <img
+                    src="../images/send.svg"
+                    alt="subscribe-newsletter-button"
+                  />
+                </button>
+                <div class="modal-container">
+                  <div class="newsletter-modal">
+                    <p>Thank You For Subscribing !</p>
+                    <span class="x" draggable="true">&times;</span>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="footer-bottom">
+            <div class="footer-bottom-left">
+              <span>© 2022 SD Canelés. All Rights Reserved.</span>
+            </div>
+            <div class="footer-bottom-right">
+              <a href="../index.html">首頁</a>
+              <a href="./news.html">最新消息</a>
+              <a href="./shops.html">店鋪夥伴</a>
+              <a href="./product.html">商品一覽</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+
+    <script src="../js/form-validation.js"></script>
+    <!-- jquery -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.js"
+      integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+      crossorigin="anonymous"
+    ></script>
+    <!-- slick輪播 -->
+    <script src="../js/slick.js"></script>
+    <script src="../js/script.js"></script>
+    <!-- Bootstrap JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../js/shops.js"></script>
+  </body>
+</html>

@@ -1,0 +1,247 @@
+{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "登波咖啡",
+        "description": "104台北市大同區赤峰街49巷25號"
+      },
+      "geometry": {
+        "coordinates": [121.52037, 25.0558],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "善菓屋 Sharing Nature 台北松江店",
+        "description": "10491台北市中山區松江路99號"
+      },
+      "geometry": {
+        "coordinates": [121.53323, 25.05104],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "善菓屋 Sharing Nature 台北南西店",
+        "description": "104台北市中山區南京西路15號1樓"
+      },
+      "geometry": {
+        "coordinates": [121.52077, 25.05278],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "善菓屋 Sharing Nature 台北信義店",
+        "description": "110台北市信義區松壽路11號B2樓"
+      },
+      "geometry": {
+        "coordinates": [121.56741, 25.03612],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "貝克宅",
+        "description": "10491台北市中山區南京東路三段89巷5弄4號"
+      },
+      "geometry": {
+        "coordinates": [121.53918, 25.05277],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Corner Bakery 63 國賓麵包房",
+        "description": "10491台北市中山區民生東路一段2號1樓"
+      },
+      "geometry": {
+        "coordinates": [121.52321, 25.05783],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Pain de KAI 可為烘焙 台大店/公館麵包/可麗露禮盒",
+        "description": "106台北市大安區新生南路三段84號一樓"
+      },
+      "geometry": {
+        "coordinates": [121.53348, 25.01889],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Twin Brothers Coffee",
+        "description": "103台北市大同區華陰街77號"
+      },
+      "geometry": {
+        "coordinates": [121.51799, 25.04976],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Wilbeck威爾貝克手烘咖啡吧",
+        "description": "110台北市信義區永吉路30巷158弄2號"
+      },
+      "geometry": {
+        "coordinates": [121.56857, 25.04219],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Magie du Levain 樂凡手感烘焙 懷寧店",
+        "description": "100台北市中正區懷寧街21號"
+      },
+      "geometry": {
+        "coordinates": [ 121.51431, 25.04528],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "COME UP PATISSERIE",
+        "description": "111台北市士林區中正路213巷19號"
+      },
+      "geometry": {
+        "coordinates": [121.52675, 25.09481],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "拉布可麗露 laboo.miaö",
+        "description": "104台北市中山區農安街2巷20之32號"
+      },
+      "geometry": {
+        "coordinates": [121.523, 25.06414],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Mon dessert",
+        "description": "104台北市中山區雙城街49巷10-2號1樓"
+      },
+      "geometry": {
+        "coordinates": [121.52498, 25.06793],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "K.LAB甜點實驗室",
+        "description": "110台北市信義區永吉路459巷5弄29號"
+      },
+      "geometry": {
+        "coordinates": [121.57915, 25.04599],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "吃吃喝喝 MAISON GOURMANDE 三民店",
+        "description": "105台北市松山區三民路153號"
+      },
+      "geometry": {
+        "coordinates": [121.563, 25.06127],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "吃吃喝喝 MAISON GOURMANDE",
+        "description": "114台北市內湖區內湖路一段285號 號2號 2F"
+      },
+      "geometry": {
+        "coordinates": [121.56643, 25.08247],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "吃吃喝喝 MAISON GOURMANDE 3號店no.3",
+        "description": "105台北市松山區105復興北路313巷45號"
+      },
+      "geometry": {
+        "coordinates": [121.54703, 25.05904],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Quelques Pâtisseries 某某｡甜點",
+        "description": "106台北市大安區仁愛路四段345巷4弄7號"
+      },
+      "geometry": {
+        "coordinates": [121.55354, 25.03904],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "貳玖甜室 29pâtisserie (無現場販售甜點）",
+        "description": "106台北市大安區濟南路三段44號"
+      },
+      "geometry": {
+        "coordinates": [121.53581, 25.04006],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "皮耶先生•手作烘焙 師大店",
+        "description": "106台北市大安區師大路108-1號"
+      },
+      "geometry": {
+        "coordinates": [121.52815, 25.02205],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "皮耶先生•手作烘焙 晴光店",
+        "description": "104台北市中山區雙城街10巷13-6號"
+      },
+      "geometry": {
+        "coordinates": [121.52404, 25.06433],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "舒適圈 · Comfort Zone",
+        "description": "106台北市大安區和平東路三段70巷"
+      },
+      "geometry": {
+        "coordinates": [121.55041, 25.02393],
+        "type": "Point"
+      }
+    }
+  ],
+  "type": "FeatureCollection"
+}
