@@ -573,7 +573,7 @@ section#about {
 .contents-one {
 	position: relative;
 	height: 100%;
-	background-image: url("../images/contents-one-bg.png");
+	background-image: url("../images/contents-one-bg.webp");
 }
 
 .about-page-one {
@@ -679,7 +679,7 @@ section#about {
 .contents-two {
 	position: relative;
 	height: 100%;
-	background-image: url("../images/contents-two-bg.png");
+	background-image: url("../images/contents-two-bg.webp");
 }
 
 .about-page-two {
@@ -1413,27 +1413,27 @@ p em {
 }
 
 .news-card1 {
-	background-image: url(../images/news-img1.jpg);
+	background-image: url(../images/news-img1.webp);
 	grid-area: card1;
 }
 
 .news-card2 {
-	background-image: url(../images/news-img2.jpg);
+	background-image: url(../images/news-img2.webp);
 	grid-area: card2;
 }
 
 .news-card3 {
-	background-image: url(../images/news-img3.jpg);
+	background-image: url(../images/news-img3.webp);
 	grid-area: card3;
 }
 
 .news-card4 {
-	background-image: url(../images/news-img4.jpg);
+	background-image: url(../images/news-img4.webp);
 	grid-area: card4;
 }
 
 .news-card5 {
-	background-image: url(../images/news-img5.jpg);
+	background-image: url(../images/news-img5.webp);
 	grid-area: card5;
 }
 
@@ -2014,7 +2014,7 @@ svg,
 #customers {
 	width: 100%;
 	height: 100vh;
-	background-image: url(../images/bg-customers.jpg);
+	background-image: url(../images/bg-customers.webp);
 	display: flex;
 	justify-content: space-around;
 	background-repeat: no-repeat;
