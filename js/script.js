@@ -188,7 +188,7 @@ function shopsImages(shops) {
         </g>
       </svg>
       <div class="bubble-img-container">
-        <img src="${shops[i].img}">
+        <img src="${shops[i].img}" alt="shop image">
         <div class="shop-info-container">
           <div class="shop-logo-container">
             <img src="${shops[i].logo}" alt="shop-logo">
