@@ -1,9 +1,9 @@
-# Search Dessert CanCanelés
+# Search Dessert Canelés
 
 ![Search-Dessert-Canelés-website cover](./assets/SD%20Canelés-banner.gif)
 
 Search Dessert Canelés 尋找可麗露
-平常喜愛由不同的資訊平台收集有販售可麗露的店家，有的是專賣店有的是麵包店或咖啡店。為了統整愛店們的資訊，我們使用 JavaScript 打造一個可麗露專屬平台，提供使用者各店家資訊，還能一覽各家創新口味。
+平常喜愛由各種資訊平台中收集有販售可麗露的店家，有的是專賣店有的是麵包店或咖啡店。為了統整愛店們的資訊，我們使用 JavaScript 打造一個可麗露專屬平台，提供使用者各店家資訊，還能一覽各家創新口味。
 
 ### 立即瀏覽
 
@@ -11,19 +11,19 @@ Search Dessert Canelés 尋找可麗露
 
 ### 專案安裝流程
 
-> 1. 開啟終端機，clone 此專案至本機電腦
+1. 開啟終端機，clone 此專案至本機電腦
 
 ```
 git clone https://chili0118.github.io/SD_Caneles/
 ```
 
-> 2. 打開終端機進入此專案資料夾
+2. 打開終端機進入此專案資料夾
 
 ```
 cd SD_Caneles
 ```
 
-> 3. 將 index.html 檔 拖曳至瀏覽器即可
+3. 將 index.html 檔 拖曳至瀏覽器即可
 
 ### 產品功能
 
@@ -43,7 +43,12 @@ cd SD_Caneles
 - 由口味篩選產品
 
 ### 預覽
-
+|![](./assets/SD%20Canelés-about.png)|
+|:-------:|
+|![](./assets/SD%20Canelés-map.png)|
+|![](./assets/SD%20Canelés-shops.gif)|
+|![](./assets/SD%20Canelés-contact.gif)|
+|![](./assets/SD%20Canelés-email-subscription.gif)|
 ### 專案技術
 
 - Bootstrap v5.1.1
@@ -58,6 +63,7 @@ cd SD_Caneles
 ### 作者
 
 陳韻如 chilichen0118@gmail.com
+
 謝米柔 regulusmj@gmail.com
 
 ### Thanks for
